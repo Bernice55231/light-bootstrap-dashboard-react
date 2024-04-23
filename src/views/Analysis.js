@@ -2,18 +2,14 @@ import React from "react";
 
 // react-bootstrap components
 import {
-  Badge,
-  Button,
   Card,
-  Navbar,
-  Nav,
   Table,
   Container,
   Row,
   Col,
 } from "react-bootstrap";
 
-function TableList() {
+function Analysis() {
   return (
     <>
       <Container fluid>
@@ -146,4 +142,4 @@ function TableList() {
   );
 }
 
-export default TableList;
+export default Analysis;

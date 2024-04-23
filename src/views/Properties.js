@@ -3,11 +3,8 @@ import ChartistGraph from "react-chartist";
 import { useState, useEffect } from "react";
 // react-bootstrap components
 import {
-  Badge,
   Button,
   Card,
-  Navbar,
-  Nav,
   Table,
   Container,
   Row,
@@ -17,7 +14,7 @@ import {
   Tooltip,
 } from "react-bootstrap";
 
-function Dashboard() {
+function Properties() {
   const [dashboardData, setDashboardData] = useState({
     roomNumber: "Loading...",
     revenue: "Loading...",
@@ -380,4 +377,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Properties;
